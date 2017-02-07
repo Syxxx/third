@@ -10,7 +10,7 @@ int main(){
 	size=strlen(str);
 //	printf("%s",str);
 
-    if(size>3) 
+
 	for(int i=0,j=0;i<size;i++,j++)
 	{
 		if(i==0) j=3-size%3;
